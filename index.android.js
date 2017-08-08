@@ -11,13 +11,13 @@ import {
   Text,
   View
 } from 'react-native';
-import Main from './src/Main';
+import Root from './src/Main';
 
 export default class TaxiApp extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Main/>
+        <Root {...this.props}/>
       </View>
     );
   }
